@@ -24,7 +24,10 @@
 //
 
 import Foundation
+
+#if !os(tvOS)
 import Accounts
+#endif
 
 public class SwifterCredential {
 
@@ -55,14 +58,18 @@ public class SwifterCredential {
     }
 
     public internal(set) var accessToken: OAuthAccessToken?
-    public internal(set) var account: ACAccount?
+
 
     public init(accessToken: OAuthAccessToken) {
         self.accessToken = accessToken
     }
 
+#if !os(tvOS)
+// MARK: TODO
+    public internal(set) var account: ACAccount?
     public init(account: ACAccount) {
         self.account = account
     }
+#endif
 
 }

@@ -24,7 +24,9 @@
 //
 
 import Foundation
+#if !os(tvOS)
 import Accounts
+#endif
 
 public class Swifter {
 
@@ -89,6 +91,8 @@ public class Swifter {
         self.siteStreamURL = NSURL(string: "https://sitestream.twitter.com/1.1/")!
     }
 
+#if !os(tvOS)
+// MARK: TODO
     public init(account: ACAccount) {
         self.client = SwifterAccountsClient(account: account)
 
@@ -98,7 +102,7 @@ public class Swifter {
         self.userStreamURL = NSURL(string: "https://userstream.twitter.com/1.1/")!
         self.siteStreamURL = NSURL(string: "https://sitestream.twitter.com/1.1/")!
     }
-
+#endif
     deinit {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }

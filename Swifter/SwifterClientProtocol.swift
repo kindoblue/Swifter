@@ -23,9 +23,8 @@
 //  THE SOFTWARE.
 //
 
+
 import Foundation
-import Accounts
-import Social
 
 public protocol SwifterClientProtocol {
 

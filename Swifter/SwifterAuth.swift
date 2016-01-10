@@ -25,7 +25,7 @@
 
 import Foundation
 
-#if os(iOS)
+#if os(iOS) || os(tvOS)
     import UIKit
 #else
     import AppKit
@@ -66,7 +66,7 @@ public extension Swifter {
             if openQueryURL != nil {
                 openQueryURL?(url: queryURL!)
             } else {
-                #if os(iOS)
+                #if os(iOS) || os(tvOS)
                     UIApplication.sharedApplication().openURL(queryURL!)
                 #else
                     NSWorkspace.sharedWorkspace().openURL(queryURL!)

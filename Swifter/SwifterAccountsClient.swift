@@ -23,6 +23,7 @@
 //  THE SOFTWARE.
 //
 
+#if !os(tvOS)
 import Foundation
 import Accounts
 import Social
@@ -111,3 +112,4 @@ internal class SwifterAccountsClient: SwifterClientProtocol {
     }
 
 }
+#endif
