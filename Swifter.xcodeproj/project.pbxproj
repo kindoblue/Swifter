@@ -135,7 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = retrytvos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BFD4CA1C4A7208007C3BC1 /* SwiftertvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftertvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BFD4CC1C4A7208007C3BC1 /* retrytvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = retrytvos.h; sourceTree = "<group>"; };
 		58BFD4CE1C4A7208007C3BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58BFD4F01C4A7391007C3BC1 /* SwifterFavorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterFavorites.swift; sourceTree = "<group>"; };
@@ -306,7 +306,7 @@
 				8B9F51131944A61D00894629 /* SwifterMac.framework */,
 				8B300C1F1944AA1A00993175 /* SwifterDemoiOS.app */,
 				8B300C471944AECB00993175 /* SwifterDemoMac.app */,
-				58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */,
+				58BFD4CA1C4A7208007C3BC1 /* SwiftertvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -405,7 +405,7 @@
 			);
 			name = retrytvos;
 			productName = retrytvos;
-			productReference = 58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */;
+			productReference = 58BFD4CA1C4A7208007C3BC1 /* SwiftertvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B300C1E1944AA1A00993175 /* SwifterDemoiOS */ = {
@@ -736,8 +736,8 @@
 					"$(SDKROOT)/usr/lib/system",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.retrytvos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.SwiftertvOS;
+				PRODUCT_NAME = SwiftertvOS;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
@@ -764,8 +764,8 @@
 					"$(SDKROOT)/usr/lib/system",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.retrytvos;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.SwiftertvOS;
+				PRODUCT_NAME = SwiftertvOS;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
