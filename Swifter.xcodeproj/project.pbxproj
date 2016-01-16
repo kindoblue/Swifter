@@ -7,35 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		587091D01C43024500795AA3 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43281947CC7A00E63301 /* SwifterFavorites.swift */; };
-		587091D11C43024500795AA3 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43251947CABA00E63301 /* SwifterSuggested.swift */; };
-		587091D21C43024500795AA3 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B116AF0194601970019A4DC /* SwifterHTTPRequest.swift */; };
-		587091D31C43024500795AA3 /* SwifterStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B552D2C194695F80052EB86 /* SwifterStreaming.swift */; };
-		587091D41C43024500795AA3 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F5519450BDB00EE2927 /* SwifterOAuthClient.swift */; };
-		587091D51C43024500795AA3 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F514C1944A8DC00894629 /* Swifter.swift */; };
-		587091D61C43024500795AA3 /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6751948825D00E3AA64 /* SwifterSavedSearches.swift */; };
-		587091D71C43024500795AA3 /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43161947450A00E63301 /* SwifterTweets.swift */; };
-		587091D81C43024500795AA3 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6841948BCC100E3AA64 /* SwifterAccountsClient.swift */; };
-		587091D91C43024500795AA3 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F581945325E00EE2927 /* SwifterAuth.swift */; };
-		587091DA1C43024500795AA3 /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431C1947907300E63301 /* SwifterMessages.swift */; };
-		587091DB1C43024500795AA3 /* String+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F514A1944A8DC00894629 /* String+Swifter.swift */; };
-		587091DC1C43024500795AA3 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D67B1948882700E3AA64 /* SwifterSpam.swift */; };
-		587091DD1C43024500795AA3 /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431919475D3C00E63301 /* SwifterSearch.swift */; };
-		587091DE1C43024500795AA3 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33CA3E19587C6D00739FCB /* JSON.swift */; };
-		587091DF1C43024500795AA3 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF432B1947CED700E63301 /* SwifterLists.swift */; };
-		587091E01C43024500795AA3 /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA50EC61953828A00FB1829 /* SwifterAppOnlyClient.swift */; };
-		587091E11C43024500795AA3 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6871948C11E00E3AA64 /* SwifterCredential.swift */; };
-		587091E21C43024500795AA3 /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6781948839800E3AA64 /* SwifterPlaces.swift */; };
-		587091E31C43024500795AA3 /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC32D3C1955EEE100FF75A0 /* SwifterTrends.swift */; };
-		587091E41C43024500795AA3 /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43221947A6C800E63301 /* SwifterUsers.swift */; };
-		587091E51C43024500795AA3 /* Dictionary+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F51471944A8DC00894629 /* Dictionary+Swifter.swift */; };
-		587091E61C43024500795AA3 /* NSURL+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B552D29194643CF0052EB86 /* NSURL+Swifter.swift */; };
-		587091E71C43024500795AA3 /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431F194798FB00E63301 /* SwifterFollowers.swift */; };
-		587091E81C43024500795AA3 /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F5B1945331D00EE2927 /* SwifterTimelines.swift */; };
-		587091E91C43024500795AA3 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D67E194889B900E3AA64 /* SwifterClientProtocol.swift */; };
-		587091EA1C43024500795AA3 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F259E194A663D004BD304 /* SwifterHelp.swift */; };
-		587091ED1C43024500795AA3 /* Swifter-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9F514B1944A8DC00894629 /* Swifter-Bridging-Header.h */; };
-		587091EE1C43024500795AA3 /* Swifter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5EFF14195F09F600B354F9 /* Swifter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BFD4D21C4A721C007C3BC1 /* Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F514C1944A8DC00894629 /* Swifter.swift */; };
+		58BFD4D41C4A721C007C3BC1 /* SwifterAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F581945325E00EE2927 /* SwifterAuth.swift */; };
+		58BFD4D51C4A721C007C3BC1 /* SwifterTimelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F5B1945331D00EE2927 /* SwifterTimelines.swift */; };
+		58BFD4D61C4A721C007C3BC1 /* SwifterTweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43161947450A00E63301 /* SwifterTweets.swift */; };
+		58BFD4D71C4A721C007C3BC1 /* SwifterSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431919475D3C00E63301 /* SwifterSearch.swift */; };
+		58BFD4D81C4A721C007C3BC1 /* SwifterStreaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B552D2C194695F80052EB86 /* SwifterStreaming.swift */; };
+		58BFD4D91C4A721C007C3BC1 /* SwifterMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431C1947907300E63301 /* SwifterMessages.swift */; };
+		58BFD4DA1C4A721C007C3BC1 /* SwifterFollowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF431F194798FB00E63301 /* SwifterFollowers.swift */; };
+		58BFD4DB1C4A721C007C3BC1 /* SwifterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43221947A6C800E63301 /* SwifterUsers.swift */; };
+		58BFD4DC1C4A721C007C3BC1 /* SwifterSuggested.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43251947CABA00E63301 /* SwifterSuggested.swift */; };
+		58BFD4DD1C4A721C007C3BC1 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF43281947CC7A00E63301 /* SwifterFavorites.swift */; };
+		58BFD4DE1C4A721C007C3BC1 /* SwifterLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCF432B1947CED700E63301 /* SwifterLists.swift */; };
+		58BFD4DF1C4A721C007C3BC1 /* SwifterSavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6751948825D00E3AA64 /* SwifterSavedSearches.swift */; };
+		58BFD4E01C4A721C007C3BC1 /* SwifterPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6781948839800E3AA64 /* SwifterPlaces.swift */; };
+		58BFD4E11C4A721C007C3BC1 /* SwifterTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC32D3C1955EEE100FF75A0 /* SwifterTrends.swift */; };
+		58BFD4E21C4A721C007C3BC1 /* SwifterSpam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D67B1948882700E3AA64 /* SwifterSpam.swift */; };
+		58BFD4E31C4A721C007C3BC1 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F259E194A663D004BD304 /* SwifterHelp.swift */; };
+		58BFD4E41C4A721C007C3BC1 /* SwifterClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D67E194889B900E3AA64 /* SwifterClientProtocol.swift */; };
+		58BFD4E51C4A721C007C3BC1 /* SwifterOAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B548F5519450BDB00EE2927 /* SwifterOAuthClient.swift */; };
+		58BFD4E61C4A721C007C3BC1 /* SwifterAccountsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6841948BCC100E3AA64 /* SwifterAccountsClient.swift */; };
+		58BFD4E71C4A721C007C3BC1 /* SwifterAppOnlyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA50EC61953828A00FB1829 /* SwifterAppOnlyClient.swift */; };
+		58BFD4E81C4A721C007C3BC1 /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B116AF0194601970019A4DC /* SwifterHTTPRequest.swift */; };
+		58BFD4E91C4A721C007C3BC1 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33CA3E19587C6D00739FCB /* JSON.swift */; };
+		58BFD4EA1C4A721C007C3BC1 /* Dictionary+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F51471944A8DC00894629 /* Dictionary+Swifter.swift */; };
+		58BFD4EB1C4A721C007C3BC1 /* NSURL+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B552D29194643CF0052EB86 /* NSURL+Swifter.swift */; };
+		58BFD4ED1C4A7327007C3BC1 /* Swifter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5EFF14195F09F600B354F9 /* Swifter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58BFD4EE1C4A732E007C3BC1 /* Swifter-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9F514B1944A8DC00894629 /* Swifter-Bridging-Header.h */; };
+		58BFD4EF1C4A734C007C3BC1 /* SwifterCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1D6871948C11E00E3AA64 /* SwifterCredential.swift */; };
+		58BFD4F11C4A7391007C3BC1 /* SwifterFavorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BFD4F01C4A7391007C3BC1 /* SwifterFavorites.swift */; };
+		58BFD4F21C4A743D007C3BC1 /* String+Swifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F514A1944A8DC00894629 /* String+Swifter.swift */; };
 		8B116AF1194601970019A4DC /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B116AF0194601970019A4DC /* SwifterHTTPRequest.swift */; };
 		8B116AF2194601970019A4DC /* SwifterHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B116AF0194601970019A4DC /* SwifterHTTPRequest.swift */; };
 		8B1F259F194A663D004BD304 /* SwifterHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F259E194A663D004BD304 /* SwifterHelp.swift */; };
@@ -134,7 +135,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		587091F31C43024500795AA3 /* SwiftertvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftertvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = retrytvos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BFD4CC1C4A7208007C3BC1 /* retrytvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = retrytvos.h; sourceTree = "<group>"; };
+		58BFD4CE1C4A7208007C3BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BFD4F01C4A7391007C3BC1 /* SwifterFavorites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterFavorites.swift; sourceTree = "<group>"; };
 		8B116AF0194601970019A4DC /* SwifterHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterHTTPRequest.swift; sourceTree = "<group>"; };
 		8B1F259E194A663D004BD304 /* SwifterHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterHelp.swift; sourceTree = "<group>"; };
 		8B300C1F1944AA1A00993175 /* SwifterDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifterDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,7 +189,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		587091EB1C43024500795AA3 /* Frameworks */ = {
+		58BFD4C61C4A7208007C3BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,6 +228,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58BFD4CB1C4A7208007C3BC1 /* retrytvos */ = {
+			isa = PBXGroup;
+			children = (
+				58BFD4CC1C4A7208007C3BC1 /* retrytvos.h */,
+				58BFD4CE1C4A7208007C3BC1 /* Info.plist */,
+			);
+			path = retrytvos;
+			sourceTree = "<group>";
+		};
 		8B300C201944AA1A00993175 /* SwifterDemoiOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +294,7 @@
 				8B9F51461944A8DC00894629 /* Swifter */,
 				8B300C201944AA1A00993175 /* SwifterDemoiOS */,
 				8B300C481944AECB00993175 /* SwifterDemoMac */,
+				58BFD4CB1C4A7208007C3BC1 /* retrytvos */,
 				8B9F50EF1944A5AB00894629 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -292,7 +306,7 @@
 				8B9F51131944A61D00894629 /* SwifterMac.framework */,
 				8B300C1F1944AA1A00993175 /* SwifterDemoiOS.app */,
 				8B300C471944AECB00993175 /* SwifterDemoMac.app */,
-				587091F31C43024500795AA3 /* SwiftertvOS.framework */,
+				58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -302,6 +316,7 @@
 			children = (
 				8B5EFF14195F09F600B354F9 /* Swifter.h */,
 				8B9F514B1944A8DC00894629 /* Swifter-Bridging-Header.h */,
+				58BFD4F01C4A7391007C3BC1 /* SwifterFavorites.swift */,
 				8B9F514C1944A8DC00894629 /* Swifter.swift */,
 				8BF1D6871948C11E00E3AA64 /* SwifterCredential.swift */,
 				8B548F581945325E00EE2927 /* SwifterAuth.swift */,
@@ -345,12 +360,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		587091EC1C43024500795AA3 /* Headers */ = {
+		58BFD4C71C4A7208007C3BC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587091ED1C43024500795AA3 /* Swifter-Bridging-Header.h in Headers */,
-				587091EE1C43024500795AA3 /* Swifter.h in Headers */,
+				58BFD4ED1C4A7327007C3BC1 /* Swifter.h in Headers */,
+				58BFD4EE1C4A732E007C3BC1 /* Swifter-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,22 +390,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		587091CE1C43024500795AA3 /* SwiftertvOS */ = {
+		58BFD4C91C4A7208007C3BC1 /* retrytvos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 587091F01C43024500795AA3 /* Build configuration list for PBXNativeTarget "SwiftertvOS" */;
+			buildConfigurationList = 58BFD4CF1C4A7208007C3BC1 /* Build configuration list for PBXNativeTarget "retrytvos" */;
 			buildPhases = (
-				587091CF1C43024500795AA3 /* Sources */,
-				587091EB1C43024500795AA3 /* Frameworks */,
-				587091EC1C43024500795AA3 /* Headers */,
-				587091EF1C43024500795AA3 /* Resources */,
+				58BFD4C51C4A7208007C3BC1 /* Sources */,
+				58BFD4C61C4A7208007C3BC1 /* Frameworks */,
+				58BFD4C71C4A7208007C3BC1 /* Headers */,
+				58BFD4C81C4A7208007C3BC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftertvOS;
-			productName = SwifteriOS;
-			productReference = 587091F31C43024500795AA3 /* SwiftertvOS.framework */;
+			name = retrytvos;
+			productName = retrytvos;
+			productReference = 58BFD4CA1C4A7208007C3BC1 /* retrytvos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B300C1E1944AA1A00993175 /* SwifterDemoiOS */ = {
@@ -476,6 +491,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Matt Donnelly";
 				TargetAttributes = {
+					58BFD4C91C4A7208007C3BC1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					8B300C1E1944AA1A00993175 = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -507,13 +525,13 @@
 				8B9F50ED1944A5AB00894629 /* SwifteriOS */,
 				8B9F51121944A61D00894629 /* SwifterMac */,
 				8B300C461944AECB00993175 /* SwifterDemoMac */,
-				587091CE1C43024500795AA3 /* SwiftertvOS */,
+				58BFD4C91C4A7208007C3BC1 /* retrytvos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		587091EF1C43024500795AA3 /* Resources */ = {
+		58BFD4C81C4A7208007C3BC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,37 +574,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		587091CF1C43024500795AA3 /* Sources */ = {
+		58BFD4C51C4A7208007C3BC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587091D01C43024500795AA3 /* SwifterFavorites.swift in Sources */,
-				587091D11C43024500795AA3 /* SwifterSuggested.swift in Sources */,
-				587091D21C43024500795AA3 /* SwifterHTTPRequest.swift in Sources */,
-				587091D31C43024500795AA3 /* SwifterStreaming.swift in Sources */,
-				587091D41C43024500795AA3 /* SwifterOAuthClient.swift in Sources */,
-				587091D51C43024500795AA3 /* Swifter.swift in Sources */,
-				587091D61C43024500795AA3 /* SwifterSavedSearches.swift in Sources */,
-				587091D71C43024500795AA3 /* SwifterTweets.swift in Sources */,
-				587091D81C43024500795AA3 /* SwifterAccountsClient.swift in Sources */,
-				587091D91C43024500795AA3 /* SwifterAuth.swift in Sources */,
-				587091DA1C43024500795AA3 /* SwifterMessages.swift in Sources */,
-				587091DB1C43024500795AA3 /* String+Swifter.swift in Sources */,
-				587091DC1C43024500795AA3 /* SwifterSpam.swift in Sources */,
-				587091DD1C43024500795AA3 /* SwifterSearch.swift in Sources */,
-				587091DE1C43024500795AA3 /* JSON.swift in Sources */,
-				587091DF1C43024500795AA3 /* SwifterLists.swift in Sources */,
-				587091E01C43024500795AA3 /* SwifterAppOnlyClient.swift in Sources */,
-				587091E11C43024500795AA3 /* SwifterCredential.swift in Sources */,
-				587091E21C43024500795AA3 /* SwifterPlaces.swift in Sources */,
-				587091E31C43024500795AA3 /* SwifterTrends.swift in Sources */,
-				587091E41C43024500795AA3 /* SwifterUsers.swift in Sources */,
-				587091E51C43024500795AA3 /* Dictionary+Swifter.swift in Sources */,
-				587091E61C43024500795AA3 /* NSURL+Swifter.swift in Sources */,
-				587091E71C43024500795AA3 /* SwifterFollowers.swift in Sources */,
-				587091E81C43024500795AA3 /* SwifterTimelines.swift in Sources */,
-				587091E91C43024500795AA3 /* SwifterClientProtocol.swift in Sources */,
-				587091EA1C43024500795AA3 /* SwifterHelp.swift in Sources */,
+				58BFD4F21C4A743D007C3BC1 /* String+Swifter.swift in Sources */,
+				58BFD4DD1C4A721C007C3BC1 /* SwifterFavorites.swift in Sources */,
+				58BFD4EF1C4A734C007C3BC1 /* SwifterCredential.swift in Sources */,
+				58BFD4D21C4A721C007C3BC1 /* Swifter.swift in Sources */,
+				58BFD4D41C4A721C007C3BC1 /* SwifterAuth.swift in Sources */,
+				58BFD4D51C4A721C007C3BC1 /* SwifterTimelines.swift in Sources */,
+				58BFD4D61C4A721C007C3BC1 /* SwifterTweets.swift in Sources */,
+				58BFD4D71C4A721C007C3BC1 /* SwifterSearch.swift in Sources */,
+				58BFD4D81C4A721C007C3BC1 /* SwifterStreaming.swift in Sources */,
+				58BFD4D91C4A721C007C3BC1 /* SwifterMessages.swift in Sources */,
+				58BFD4DA1C4A721C007C3BC1 /* SwifterFollowers.swift in Sources */,
+				58BFD4DB1C4A721C007C3BC1 /* SwifterUsers.swift in Sources */,
+				58BFD4DC1C4A721C007C3BC1 /* SwifterSuggested.swift in Sources */,
+				58BFD4DE1C4A721C007C3BC1 /* SwifterLists.swift in Sources */,
+				58BFD4DF1C4A721C007C3BC1 /* SwifterSavedSearches.swift in Sources */,
+				58BFD4E01C4A721C007C3BC1 /* SwifterPlaces.swift in Sources */,
+				58BFD4E11C4A721C007C3BC1 /* SwifterTrends.swift in Sources */,
+				58BFD4E21C4A721C007C3BC1 /* SwifterSpam.swift in Sources */,
+				58BFD4E31C4A721C007C3BC1 /* SwifterHelp.swift in Sources */,
+				58BFD4E41C4A721C007C3BC1 /* SwifterClientProtocol.swift in Sources */,
+				58BFD4E51C4A721C007C3BC1 /* SwifterOAuthClient.swift in Sources */,
+				58BFD4E61C4A721C007C3BC1 /* SwifterAccountsClient.swift in Sources */,
+				58BFD4E71C4A721C007C3BC1 /* SwifterAppOnlyClient.swift in Sources */,
+				58BFD4E81C4A721C007C3BC1 /* SwifterHTTPRequest.swift in Sources */,
+				58BFD4E91C4A721C007C3BC1 /* JSON.swift in Sources */,
+				58BFD4EA1C4A721C007C3BC1 /* Dictionary+Swifter.swift in Sources */,
+				58BFD4EB1C4A721C007C3BC1 /* NSURL+Swifter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +612,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58BFD4F11C4A7391007C3BC1 /* SwifterFavorites.swift in Sources */,
 				8B5EFF08195F064400B354F9 /* AuthViewController.swift in Sources */,
 				8B5EFF07195F064400B354F9 /* AppDelegate.swift in Sources */,
 				8B5EFF09195F064400B354F9 /* TweetsViewController.swift in Sources */,
@@ -700,44 +719,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		587091F11C43024500795AA3 /* Debug */ = {
+		58BFD4D01C4A7208007C3BC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Swifter/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = retrytvos/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdonnelly.${PRODUCT_NAME:rfc1034identifier}";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.retrytvos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
-		587091F21C43024500795AA3 /* Release */ = {
+		58BFD4D11C4A7208007C3BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Swifter/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = retrytvos/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mattdonnelly.${PRODUCT_NAME:rfc1034identifier}";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kindoblue.retrytvos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Swifter/Swifter-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
@@ -991,14 +1023,13 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		587091F01C43024500795AA3 /* Build configuration list for PBXNativeTarget "SwiftertvOS" */ = {
+		58BFD4CF1C4A7208007C3BC1 /* Build configuration list for PBXNativeTarget "retrytvos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				587091F11C43024500795AA3 /* Debug */,
-				587091F21C43024500795AA3 /* Release */,
+				58BFD4D01C4A7208007C3BC1 /* Debug */,
+				58BFD4D11C4A7208007C3BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		8B300C3C1944AA1A00993175 /* Build configuration list for PBXNativeTarget "SwifterDemoiOS" */ = {
 			isa = XCConfigurationList;

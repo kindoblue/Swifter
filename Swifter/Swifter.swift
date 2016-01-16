@@ -92,7 +92,6 @@ public class Swifter {
     }
 
 #if !os(tvOS)
-// MARK: TODO
     public init(account: ACAccount) {
         self.client = SwifterAccountsClient(account: account)
 
